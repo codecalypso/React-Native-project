@@ -1,10 +1,10 @@
 {
   "expo": {
-    "scheme": "acme",
+    "scheme": "aora",
     "plugins": [
       "expo-router"
     ],
-    "name": "react_native_jobs",
-    "slug": "react_native_jobs"
+    "name": "aora",
+    "slug": "aora"
   }
 }
