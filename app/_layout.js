@@ -1,6 +1,7 @@
 import {SplashScreen, Stack} from 'expo-router'
 import {useFonts} from 'expo-font'
 import { useEffect } from 'react'
+import '../global.css';
 
 SplashScreen.preventAutoHideAsync()
 //prevents the splash screen from auto-hiding
@@ -32,8 +33,7 @@ const RootLayout = () => {
       }
     return(
     <Stack>
-        <Stack.Screen 
-        name="index" options={{headerShown: false}}/>
+        <Stack.Screen name="index" options={{headerShown: false}}/>
     </Stack>
     )
 }

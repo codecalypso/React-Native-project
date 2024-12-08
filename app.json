@@ -4,7 +4,11 @@
     "plugins": [
       "expo-router"
     ],
+    // "userInterfaceStyle": "automatic",
     "name": "aora",
-    "slug": "aora"
+    "slug": "aora",
+    "web": {
+      "bundler": "metro"
+    }
   }
 }
