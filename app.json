@@ -4,7 +4,7 @@
     "plugins": [
       "expo-router"
     ],
-    // "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "automatic",
     "name": "aora",
     "slug": "aora",
     "web": {
